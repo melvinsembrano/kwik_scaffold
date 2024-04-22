@@ -1,4 +1,4 @@
 # desc "Explaining what the task does"
-# task :scaffold_plus do
+# task :kwik_scaffold do
 #   # Task goes here
 # end

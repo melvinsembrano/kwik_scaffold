@@ -1,7 +1,7 @@
 require "test_helper"
 
-class ScaffoldPlusTest < ActiveSupport::TestCase
+class KwikScaffoldTest < ActiveSupport::TestCase
   test "it has a version number" do
-    assert ScaffoldPlus::VERSION
+    assert KwikScaffold::VERSION
   end
 end

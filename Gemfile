@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Specify your gem's dependencies in scaffold_plus.gemspec.
+# Specify your gem's dependencies in kwik_scaffold.gemspec.
 gemspec
 
 gem "puma"

@@ -1,8 +1,8 @@
 require "test_helper"
-require "generators/scaffold_plus/scaffold_plus_generator"
+require "generators/kwik_scaffold/kwik_scaffold_generator"
 
-class ScaffoldPlusGeneratorTest < Rails::Generators::TestCase
-  tests ScaffoldPlusGenerator
+class KwikScaffoldGeneratorTest < Rails::Generators::TestCase
+  tests KwikScaffoldGenerator
   destination Rails.root.join("tmp/generators")
   setup :prepare_destination
 

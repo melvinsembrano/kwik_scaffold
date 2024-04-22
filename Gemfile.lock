@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scaffold_plus (0.1.0)
+    kwik_scaffold (0.1.0)
       pagy (>= 8.1)
       rails (>= 7.1)
       view_component (>= 3.12)
@@ -236,7 +236,7 @@ PLATFORMS
 DEPENDENCIES
   puma
   rubocop-rails-omakase
-  scaffold_plus!
+  kwik_scaffold!
   sqlite3
 
 BUNDLED WITH
