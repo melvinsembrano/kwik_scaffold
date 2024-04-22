@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "scaffold_plus"
+gem "scaffold_plus", github: "melvinsembrano/scaffold_plus"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install scaffold_plus
+$ gem install scaffold_plus 
 ```
 
 ## Contributing

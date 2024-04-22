@@ -1,0 +1,33 @@
+<div class="<%= @classes %>">
+  <%= turbo_frame_tag "data_table" do %>
+    <div class="sm:flex sm:items-center">
+      <div class="sm:flex-auto">
+        <h1 class="text-base font-semibold leading-6 text-jade-900"><%= @title %></h1>
+        <p class="mt-2 text-sm text-gray-700"><%= @description %></p>
+      </div>
+      <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
+        <%= new_link %>
+      </div>
+    </div>
+    <%= filter %>
+    <div class="mt-8 flow-root">
+      <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">
+          <div class="overflow-hidden shadow ring-1 ring-black ring-opacity-5 sm:rounded-md">
+            <table class="min-w-full divide-y divide-gray-300">
+              <thead class="bg-gray-100">
+                <%= header %>
+              </thead>
+              <tbody class="divide-y divide-gray-200 bg-white">
+                <%= rows %>
+              </tbody>
+            </table>
+          </div>
+          <div class="mt-5">
+            <%= footer %>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>

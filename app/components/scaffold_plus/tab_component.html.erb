@@ -1,0 +1,9 @@
+<div>
+  <%= link_to @parent do %>
+    <% if content? %>
+      <%= content %>
+    <% else %>
+      <%= @title %>
+    <% end %>
+  <% end %>
+</div>

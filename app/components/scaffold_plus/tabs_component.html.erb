@@ -1,0 +1,14 @@
+<%= turbo_frame_tag :tabs, "data-turbo-action" => "advance" do %>
+<div>
+  <div>
+    <% tabs.each do |tab| %>
+        <%= tab %>
+    <% end %>
+  </div>
+  <div>
+    <% if params[:tab].present? %>
+      <%= turbo_frame_tag :data_table, src: @tabs[params[:tab]] %>
+    <% end %>
+  </div>
+</div>
+<% end %>
