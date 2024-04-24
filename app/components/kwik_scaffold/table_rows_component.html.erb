@@ -1,0 +1,8 @@
+<% @collection.each do |record| %>
+  <%= render KwikScaffold::TableRowComponent.new(
+    record:,
+    columns: @columns,
+    cycle: cycle("", "bg-gray-50"),
+    namespace: @namespace,
+  ) %>
+<% end %>

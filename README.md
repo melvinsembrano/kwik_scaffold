@@ -1,4 +1,4 @@
-# ScaffoldPlus
+# KwikScaffold
 Short description and motivation.
 
 ## Usage
@@ -8,7 +8,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "scaffold_plus", github: "melvinsembrano/scaffold_plus"
+gem "kwik_scaffold", github: "melvinsembrano/kwik_scaffold"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install scaffold_plus 
+$ gem install kwik_scaffold 
 ```
 
 ## Contributing
